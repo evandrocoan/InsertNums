@@ -2,18 +2,35 @@
 
 A **Sublime Text 2 and 3** plugin, that inserts (consecutive) numbers across multiple selections or modifies the selections' contents with expressions. Huge configurability.
 
+
 ## Installation
 
-You can install *Insert Nums* via [Package Control][pkgctrl] by searching for **Insert Nums**.
+### By Package Control
 
-Alternatively, you can download the Zip and copy it to your Sublime Text Packages folder, or use `git clone`.
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `InsertNums` and press <kbd>Enter</kbd>
+
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
 
 ## Usage
 
 - **Windows** and **Linux**: <kbd>Ctrl+Alt+N</kbd>
 - **OSX**: <kbd>⌘+⎇+N</kbd>
 
-An input panel opens which live-previews your current format string. If you close the panel (e.g. by pressing <kbd>Esc</kbd>), the changes will be undone. 
+An input panel opens which live-previews your current format string. If you close the panel (e.g. by pressing <kbd>Esc</kbd>), the changes will be undone.
 If you prefer to not have this live preview, you can disable it by also pressing the <kbd>Shift</kbd> key.
 
 Insert a string in the format `<start>:<step>` and press enter. Both can be omitted and default to `1` (meaning `1:1`).
