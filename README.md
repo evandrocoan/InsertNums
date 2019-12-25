@@ -51,6 +51,7 @@ A **Sublime Text 2 and 3** plugin, that inserts (consecutive) numbers across mul
 search for **`InsertNums`** and press <kbd>Enter</kbd>
 
 See also:
+
 1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
 1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
